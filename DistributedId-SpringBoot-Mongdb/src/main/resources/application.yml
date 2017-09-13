@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+#单个
+#spring:
+#  data:
+#    mongodb:
+#     uri: mongodb://10.17.1.223:27017/customer
+
+#副本集
+spring:
+  data:
+    mongodb:
+     uri: mongodb://10.17.1.223:27017,10.17.1.225:27017,10.17.1.228:27017/customer
+
